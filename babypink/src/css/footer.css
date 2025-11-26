@@ -1,0 +1,29 @@
+footer  {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    align-items: center;
+    color: #FC7E90;
+    font-size: 16px;
+    user-select: none;
+}
+
+.footer-links   {
+   display: flex;
+   gap: 10px; 
+}
+
+footer a {
+    transition: transform 300ms ease;
+}
+
+footer a:hover {
+    transform: scale(1.05);
+}
+
+
+
+
