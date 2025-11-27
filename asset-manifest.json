@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/babypink-republic/static/css/main.21cc924a.css",
+    "main.js": "/babypink-republic/static/js/main.da379c14.js",
+    "static/media/example-product.webp": "/babypink-republic/static/media/example-product.ad465bad7470d1b5b427.webp",
+    "static/media/product2.webp": "/babypink-republic/static/media/product2.1b0208e1da0a74267dc2.webp",
+    "static/media/product1-2.webp": "/babypink-republic/static/media/product1-2.9176a395a1f05ad89950.webp",
+    "static/media/product2-2.webp": "/babypink-republic/static/media/product2-2.4a3ae6d5ecad3c6adf90.webp",
+    "static/media/product1-3.webp": "/babypink-republic/static/media/product1-3.3c609108110290903ad7.webp",
+    "static/media/product1.webp": "/babypink-republic/static/media/product1.41e991747409d4d0ee2b.webp",
+    "static/media/product3.webp": "/babypink-republic/static/media/product3.2613836a448e54075c06.webp",
+    "static/media/product2-1.webp": "/babypink-republic/static/media/product2-1.2863305476ff5ba3ab19.webp",
+    "static/media/product3-1.webp": "/babypink-republic/static/media/product3-1.af5a7a80232315af6727.webp",
+    "static/media/product1-1.webp": "/babypink-republic/static/media/product1-1.12da0c91393ded2ca512.webp",
+    "index.html": "/babypink-republic/index.html",
+    "main.21cc924a.css.map": "/babypink-republic/static/css/main.21cc924a.css.map",
+    "main.da379c14.js.map": "/babypink-republic/static/js/main.da379c14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21cc924a.css",
+    "static/js/main.da379c14.js"
+  ]
+}
