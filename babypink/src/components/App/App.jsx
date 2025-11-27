@@ -7,11 +7,11 @@ import { AppRoutes } from "../Routes/Routes";
 function App() {
   return (
     <CartProvider>
-        <Header />
-        <div className="wrapper">
-            <AppRoutes />
-        </div>
-        <Footer />
+      <Header />
+      <div className="wrapper">
+        <AppRoutes />
+      </div>
+      <Footer />
     </CartProvider>
   );
 }

@@ -1,18 +1,15 @@
-/* ------------- 1280px ------------- */
 @media (max-width: 1280px) {
     .header_container {
         padding: 0 25px;
     }
 }
 
-/* ------------- от 768px и выше ------------- */
 @media (min-width: 768px) {
     .presentation {
         min-height: calc(100vh - 400px);
     }
 }
 
-/* ------------- 768px и ниже ------------- */
 @media (max-width: 768px) {
     .presentation {
         height: 100vh;
@@ -37,17 +34,3 @@
     }
 }
 
-/* ------------- 430px и ниже ------------- */
-@media (max-width: 430px) {
-    .products-block {
-        padding: 0 20px;
-    }
-
-    .products-block .item {
-        width: 100%;
-    }
-
-    .products-block .item .item_img img {
-        width: 100%;
-    }
-}

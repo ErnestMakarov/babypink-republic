@@ -1,4 +1,3 @@
-import testPic from "../img/products/example-product.webp";
 import p1 from "../img/products/product1.webp";
 import p11 from "../img/products/product1-1.webp";
 import p12 from "../img/products/product1-2.webp";

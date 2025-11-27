@@ -20,8 +20,9 @@ const Products = () => {
   };
 
   return (
-    <div className="products-block">
-      {products.map((product) => (
+    <div className="products-block"> 
+      <div className="product_container">
+        {products.map((product) => (
         <div className="item" key={product.id}>
 
           <div className="item_img">
@@ -47,6 +48,7 @@ const Products = () => {
 
         </div>
       ))}
+      </div>
     </div>
   );
 };

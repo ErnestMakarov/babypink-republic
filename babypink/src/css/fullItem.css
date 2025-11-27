@@ -52,18 +52,17 @@
 }
 
 .desc {
-  color: #555;
+  color: #83696A;
   margin: 10px 0 20px;
 }
 
 .price {
   font-size: 24px;
-  color: #333;
+  color: #83696A;
   display: block;
   margin-bottom: 20px;
 }
 
-/* Sizes */
 .sizes p {
   font-weight: 600;
   margin-bottom: 5px;
@@ -91,7 +90,6 @@
   color: white;
 }
 
-/* Add Button */
 .add-btn {
   margin-top: 25px;
   padding: 12px 20px;
@@ -115,7 +113,6 @@
   transform: none;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .full-item {
     flex-direction: column;
@@ -138,6 +135,6 @@
   color: #FC7E90;
 }
 .cart-size b {
-  color: #333;
+  color: #83696A;
 }
 
