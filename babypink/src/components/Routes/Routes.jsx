@@ -6,6 +6,7 @@ import Products from "../Products/Products";
 import ProductDetails from "../Products/Product";
 import ContactForm from "../Contact";
 import About from "../About";
+import Checkout from "../Checkout";
 
 export const AppRoutes = () => {
   return (
@@ -15,6 +16,7 @@ export const AppRoutes = () => {
       <Route path="/products/:id" element={<ProductDetails />} />
       <Route path="/contact" element={<ContactForm />} />
       <Route path="/about" element={<About />} />
+      <Route path="/checkout" element={<Checkout />} />
     </Routes>
   );
 };

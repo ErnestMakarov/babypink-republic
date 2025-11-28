@@ -5,6 +5,7 @@ header  {
     left: 0;
     width: 100%; 
     background-color: #fff;
+    height: 70px;
 
     background: rgba(255, 255, 255, 1); /* прозрачность */
     backdrop-filter: blur(6px);          /* блюр */
@@ -67,14 +68,40 @@ header .shop-cart {
   width: 450px;
   background: #fafafa;
   box-shadow: 8px 15px 55px -3px rgba(0,0,0,0.33);
-  padding: 20px;
-  padding-bottom: 0;
+  
 
   transform: translateY(-20px);
   opacity: 0;
 
   pointer-events: none;
   transition: transform 0.35s ease, opacity 0.35s ease;
+
+  
+
+}
+
+.cart-block-pos{
+    position: relative;
+    max-height: 600px;
+
+    overflow-y: auto;
+
+    padding-bottom: 118px;
+
+    user-select: none;
+}
+
+.cart-block-pos::-webkit-scrollbar {
+  width: 10px;
+}
+
+.cart-block-pos::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.cart-block-pos::-webkit-scrollbar-thumb {
+  background: #FC7E90; 
+  border-radius: 10px;
 }
 
 header .shop-cart.open {
@@ -212,6 +239,7 @@ header .shop-cart .summa  {
 
 
 
+
 .burger-btn {
     color: #83696A;
     display: none;
@@ -283,6 +311,11 @@ header .shop-cart .summa  {
     .header-cart-icon {
         margin-right: 10px;
     }
+
+    .logo img{
+    width: 150px;
+    height: auto;
+}
 }
 
 /* ПК активная ссылка */

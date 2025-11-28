@@ -1,16 +1,16 @@
 
 .checkout-page {
-  max-width: 900px;
-  margin: 50px auto;
-  padding: 20px;
+  
+  margin: 5px auto;
 }
 
-.checkout-title {
-  text-align: center;
-  color: #FC7E90;
-  margin-bottom: 30px;
-  font-size: 32px;
+.checkout-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
+
 
 .order-box {
   background: #ffe5ef;
@@ -18,6 +18,8 @@
   padding: 25px;
   margin-bottom: 40px;
   box-shadow: 0 0 20px rgba(252, 126, 144, 0.15);
+
+  width: 50%;
 }
 
 .order-item {
@@ -54,6 +56,17 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+
+  width: 50%;
+  margin: 0 auto;
+}
+
+.checkout-form div{
+  display: flex;
+}
+
+.checkout-form div input{
+  width: 50%;
 }
 
 .checkout-form input,

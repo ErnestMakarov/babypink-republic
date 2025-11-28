@@ -57,45 +57,46 @@ export default function Contact() {
   };
 
   return (
-    <div className="checkout-page">
+    <div className="checkout-page main">
       <h2 className="checkout-title">Checkout</h2>
+      <div className="checkout-container container">
+          <div className="order-box">
+                  <h3>Your order:</h3>
 
-      <div className="order-box">
-        <h3>Your order:</h3>
+                  {cart.map((item) => (
+                    <div className="order-item" key={item.id + item.size}>
+                      <img src={item.img} />
+                      <div>
+                        <p>
+                          <b>{item.title}</b>
+                        </p>
+                        <p>Size: {item.size}</p>
+                        <p>Qty: {item.qty}</p>
+                        <p>
+                          {(parseFloat(item.price) * Number(item.qty || 0)).toFixed(2)}€
+                        </p>
+                      </div>
+                    </div>
+                  ))}
 
-        {cart.map((item) => (
-          <div className="order-item" key={item.id + item.size}>
-            <img src={item.img} />
-            <div>
-              <p>
-                <b>{item.title}</b>
-              </p>
-              <p>Size: {item.size}</p>
-              <p>Qty: {item.qty}</p>
-              <p>
-                {(parseFloat(item.price) * Number(item.qty || 0)).toFixed(2)}€
-              </p>
-            </div>
-          </div>
-        ))}
+                  <div className="order-total">Total: {total.toFixed(2)}€</div>
+                  perevedite summu na etot schet 1234567890
+                </div>
 
-        <div className="order-total">Total: {total.toFixed(2)}€</div>
-        perevedite summu na etot schet 1234567890
+                <form ref={form} onSubmit={sendEmail} className="checkout-form">
+                  <input name="user_name" placeholder="Your name" required />
+                  <input name="user_email" placeholder="E-mail" required type="email" />
+                  <input name="user_phone" placeholder="Phone number" required />
+                  <input name="user_address" placeholder="Delivery address" required />
+                  <textarea
+                    name="user_comment"
+                    placeholder="Comment for the order"
+                  />
+                  <button type="submit" className="checkout-btn">
+                    Submit order
+                  </button>
+                </form>
       </div>
-
-      <form ref={form} onSubmit={sendEmail} className="checkout-form">
-        <input name="user_name" placeholder="Your name" required />
-        <input name="user_email" placeholder="E-mail" required type="email" />
-        <input name="user_phone" placeholder="Phone number" required />
-        <input name="user_address" placeholder="Delivery address" required />
-        <textarea
-          name="user_comment"
-          placeholder="Comment for the order"
-        />
-        <button type="submit" className="checkout-btn">
-          Submit order
-        </button>
-      </form>
     </div>
   );
 }

@@ -6,14 +6,14 @@ const Home = () => {
   const productsRef = useRef(null);
 
   return (
-    <>
+    <main className='main'>
       <Hero scrollToProducts={productsRef} />
 
       
       <div ref={productsRef}>
         <Products />
       </div>
-    </>
+    </main>
   );
 };
 

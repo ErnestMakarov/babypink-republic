@@ -13,7 +13,7 @@ const Cart = () => {
   }, 0);
 
   return (
-    <>
+    <div className="cart-block-pos">
       {cart.length === 0 ? (
         <p>Empty</p>
       ) : (
@@ -56,16 +56,18 @@ const Cart = () => {
           ))}
 
           <div className="cart-total">
-            <span>Total:</span>
+            <span>Total: </span>
             <b>{total.toFixed(2)}€</b>
+
+            <Link className="checkout_btn" to="checkout">
+              Check out
+            </Link>
           </div>
 
-          <Link className="checkout_btn" to="contact">
-            Check out
-          </Link>
+          
         </>
       )}
-    </>
+    </div>
   );
 };
 

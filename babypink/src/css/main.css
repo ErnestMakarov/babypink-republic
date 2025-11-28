@@ -145,12 +145,16 @@
 }
 
 .cart-total {
-  margin: 15px 0;
-  display: flex;
-  justify-content: space-between;
+
   padding: 10px;
   font-size: 18px;
   border-top: 1px solid #ddd;
+
+  position: fixed;
+  bottom: 0;
+
+  background-color: #fff;
+  width: 100%;
 }
 
 /* ПК — 3 карточки */
