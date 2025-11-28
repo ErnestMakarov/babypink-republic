@@ -288,47 +288,40 @@ header .shop-cart .summa  {
 /* ======================= */
 /* MOBILE BREAKPOINT       */
 /* ======================= */
-@media(max-width: 768px) {
 
-    .desktop-nav {
-        display: none;
-    }
-    
-    .header .shop-cart-button   {
-        margin-bottom: 10px;
-    }
+@media (max-width: 768px) {
+  /* убираем десктопное меню */
+  .desktop-nav {
+    display: none;
+  }
 
-    .burger-btn {
-        display: block;
-        color: #83696A;
-    }
+  /* показываем бургер */
+  .burger-btn {
+    display: block;
+    color: #83696A;
+  }
 
-    .header_container {
-        padding: 0 15px;
-    }
+  /* паддинги, чтобы всё не прилипало */
+  .header_container {
+    padding: 0 12px;
+  }
 
-    /* Корзина и бургер стоят справа */
-    .header-cart-icon {
-        margin-right: 10px;
-    }
-
-    .logo img{
-    width: 150px;
+  /* логотип поменьше */
+  .logo img {
+    width: 140px;
     height: auto;
-}
+  }
+
+  /* корзина и бургер справа в линию */
+  .header-right {
+    gap: 8px;
+  }
+
+  /* ШИРИНА ВЫПАДАЮЩЕЙ КОРЗИНЫ НА МОБИЛЕ */
+  header .shop-cart {
+    width: 100vw;
+    right: 0;
+  }
 }
 
-/* ПК активная ссылка */
-.header-link.active {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-}
-
-/* Мобильная активная ссылка */
-.mobile-link.active {
-    color: #fff;
-    text-decoration: underline;
-    text-underline-offset: 6px;
-    font-weight: 700;
-}
 

@@ -1,6 +1,7 @@
 .full-item {
   max-width: 1100px;
-  margin: 40px auto;
+  margin: 200px auto;
+  
   padding: 20px;
   display: flex;
   gap: 40px;
@@ -113,10 +114,16 @@
   transform: none;
 }
 
+
+
 @media (max-width: 768px) {
+
   .full-item {
     flex-direction: column;
     align-items: center;
+    margin: 50px auto;
+
+    padding: 0 10px;  /* ← вот это добавляет отступы слева и справа */
   }
 
   .small-images img {
@@ -138,3 +145,15 @@
   color: #83696A;
 }
 
+@media (max-width: 480px) {
+  .product_container {
+    justify-content: center;
+    padding: 0 10px; /* ← отступы слева и справа */
+  }
+
+  .products-block .item {
+    width: 100%;        /* карточка во всю ширину контейнера */
+    max-width: 380px;   /* но не шире 380px, чтобы была красивая */
+    margin: 0 auto;     /* центрирование */
+  }
+}
