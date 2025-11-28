@@ -42,7 +42,7 @@ export default function Checkout() {
     emailjs
       .send(
         "service_qecnjvt",
-        "template_x6obp3s",
+        "template_3byuqch",
         templateParams,
         "MTmSPVanB0uhr6_cs"
       )
