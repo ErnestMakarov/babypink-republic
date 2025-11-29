@@ -1,4 +1,4 @@
-/* ===== HERO ===== */
+
 .hero {
     position: relative;
     height: 100vh;
@@ -9,7 +9,6 @@
     overflow: hidden;
 }
 
-/* Контент */
 .hero-wrapper {
     max-width: 1280px;
     width: 100%;
@@ -32,7 +31,6 @@
     font-weight: 600;
 }
 
-/* Кнопка */
 .hero-btn {
     margin-top: 40px;
     background: linear-gradient(180deg, #F6BAC3 0%, #FC7E90 100%);
@@ -50,7 +48,6 @@
     transform: scale(1.05);
 }
 
-/* ===== GLOW ===== */
 .hero-glow {
     position: absolute;
     width: 650px;
@@ -71,7 +68,6 @@
     right: -250px;
 }
 
-/* ===== STRIPE ===== */
 .hero-stripe {
     position: absolute;
     bottom: 40px;
@@ -80,7 +76,7 @@
     background: #D6BE8D;
     padding: 28px 0;
 
-    width: 100vw;      /* <-- правильно! */
+    width: 100vw;
     overflow: hidden;
     z-index: 3;
 }
@@ -146,7 +142,7 @@
         bottom: 10px;
         padding: 20px 0;
 
-        /* ❗ Оставляем width: 100vw */
+        
         width: 100vw;
 
         transform: translateX(-50%) rotate(-4deg);

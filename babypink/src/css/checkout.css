@@ -121,7 +121,6 @@
   color: #FFF;
   text-align: center;
   padding: 20px 20px;
-  overflow-x: hidden;
 }
 
 .order-list {
@@ -129,8 +128,7 @@
   height: 80px;
   display: flex;
   flex-direction: column;
-  gap: 10px ;
-  overflow-y: auto; 
+  gap: 10px ; 
 }
 
 .order-item {

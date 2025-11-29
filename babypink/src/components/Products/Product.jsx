@@ -55,7 +55,6 @@ export default function ProductDetails() {
 
   return (
     <div className="full-item">
-      {/* GALLERY */}
       <div className="gallery">
         <img src={selectedImage} className="main-img" />
 
@@ -71,13 +70,11 @@ export default function ProductDetails() {
         </div>
       </div>
 
-      {/* INFO */}
       <div className="info">
         <h2>{product.title}</h2>
         <p className="desc">{product.desc}</p>
         <b className="price">{product.price}€</b>
 
-        {/* Sizes */}
         <div className="sizes">
           <p>Choose size:</p>
           <div className="sizes-list">
@@ -93,7 +90,6 @@ export default function ProductDetails() {
           </div>
         </div>
 
-        {/* Quantity */}
         <div className="qty-block">
           <p>Quantity:</p>
           <div className="qty-select">
@@ -103,7 +99,6 @@ export default function ProductDetails() {
           </div>
         </div>
 
-        {/* Add button */}
         <button className="add-btn" disabled={!selectedSize} onClick={handleAdd}>
           {selectedSize ? "Add to cart" : "Choose size first"}
         </button>

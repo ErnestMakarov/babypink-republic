@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 const Products = () => {
   const navigate = useNavigate();
 
-  // локальное состояние добавленных товаров (чисто визуально)
   const [addedItems, setAddedItems] = useState({});
 
   const goToProduct = (id) => {

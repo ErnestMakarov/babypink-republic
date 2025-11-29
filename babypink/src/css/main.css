@@ -158,12 +158,10 @@
   width: 100%;
 }
 
-/* ПК — 3 карточки */
 .products-block .item {
   width: calc(33.333% - 20px);
 }
 
-/* Планшеты — 2 карточки */
 @media (max-width: 1024px) {
   .product_container {
     justify-content: center;
@@ -173,14 +171,12 @@
   }
 }
 
-/* Телефоны — 1 карточка */
 @media (max-width: 600px) {
   .products-block .item {
     width: 100%;
   }
 }
 
-/* Очень маленькие телефоны — на случай 320px */
 @media (max-width: 380px) {
   .products-block .item {
     width: 100%;

@@ -15,7 +15,7 @@ const Cart = () => {
   return (
     <div className="cart-block-pos">
       {cart.length === 0 ? (
-        <p>Empty</p>
+        <p className="empty-text">Empty</p>
       ) : (
         <>
           {cart.map((item) => (

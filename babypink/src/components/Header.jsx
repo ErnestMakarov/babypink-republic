@@ -40,7 +40,6 @@ export default function Header() {
                         )}
                     </div>
 
-                    {/* BURGER */}
                     <div
                         className="burger-btn"
                         onClick={() => setMenuOpen(!menuOpen)}
@@ -48,7 +47,6 @@ export default function Header() {
                         {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
                     </div>
 
-                    {/* CART DROPDOWN */}
                     <div className={`shop-cart ${cartOpen ? "open" : ""}`}>
                         <Cart cartItems={cart} removeFromCart={removeFromCart} />
                     </div>

@@ -7,8 +7,8 @@ header  {
     background-color: #fff;
     height: 70px;
 
-    background: rgba(255, 255, 255, 1); /* прозрачность */
-    backdrop-filter: blur(6px);          /* блюр */
+    background: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     box-shadow: 1px 7px 55px 13px rgba(255,255,255,1);
     -webkit-box-shadow: 1px 7px 55px 13px rgba(255,255,255,1);
@@ -246,9 +246,7 @@ header .shop-cart .summa  {
     cursor: pointer;
 }
 
-/* ======================= */
-/* MOBILE MENU             */
-/* ======================= */
+
 .mobile-menu {
     position: fixed;
     top: 70px;
@@ -285,39 +283,43 @@ header .shop-cart .summa  {
     pointer-events: auto;
 }
 
-/* ======================= */
-/* MOBILE BREAKPOINT       */
-/* ======================= */
+.empty-text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
 
 @media (max-width: 768px) {
-  /* убираем десктопное меню */
+
   .desktop-nav {
     display: none;
   }
 
-  /* показываем бургер */
+
   .burger-btn {
     display: block;
     color: #83696A;
   }
 
-  /* паддинги, чтобы всё не прилипало */
+
   .header_container {
     padding: 0 12px;
   }
 
-  /* логотип поменьше */
+
   .logo img {
     width: 140px;
     height: auto;
   }
 
-  /* корзина и бургер справа в линию */
+
   .header-right {
     gap: 8px;
   }
 
-  /* ШИРИНА ВЫПАДАЮЩЕЙ КОРЗИНЫ НА МОБИЛЕ */
+
   header .shop-cart {
     width: 100vw;
     right: 0;
