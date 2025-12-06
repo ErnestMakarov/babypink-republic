@@ -133,7 +133,6 @@ export default function Checkout() {
               <div className="order-item" key={item.id + item.size}>
                 <img src={item.img} />
                 <div>
-                  <p><b>{item.title}</b></p>
                   <p>Size: {item.size}</p>
                   <p>quantity: {item.qty}</p>
                   <p>{(item.qty * item.price).toFixed(2)}€</p>

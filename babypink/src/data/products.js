@@ -13,29 +13,29 @@ import p31 from "../img/products/product3-1.webp";
 export const products = [
   {
     id: 1,
-    title: "name1",
+    title: "Pink Pajama Set",
     img: p1,
     otherImages: [ p11, p12, p13],
-    desc: "some description",
+    desc: "Soft and comfortable pink pajama set, perfect for cozy nights",
     category: "chairs",
-    price: 49.99
+    price: 19.99
   },
   {
     id: 2,
-    title: "name2",
+    title: "Classic Pink Pajamas",
     img: p2,
     otherImages: [ p21, p22],
-    desc: "some description",
+    desc: "Simple pink pajamas with shorts and a top, ideal for relaxing at home",
     category: "tables",
-    price: 149.00
+    price: 19.99
   },
   {
     id: 3,
-    title: "name3",
+    title: "Delicate Lingerie Set",
     img: p3,
     otherImages: [p31],
-    desc: "some description",
+    desc: "Sheer lingerie set with bra and panties, light and feminine",
     category: "sofas",
-    price: 399.99
+    price: 14.99
   },
 ];
