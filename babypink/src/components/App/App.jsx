@@ -12,6 +12,7 @@ function App() {
         <Header />
         <AppRoutes />
         <Footer />
+        <Analytics /> 
       </div>
     </CartProvider>
   );
