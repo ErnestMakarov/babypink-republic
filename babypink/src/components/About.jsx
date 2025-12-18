@@ -1,8 +1,10 @@
 import React from 'react'
-
+import img1 from "../img/abaut-img1.png"
+import img2 from "../img/about-img2.png"
 const About = () => {
   return (
     <main className='main'>
+      <img src={img1} alt="" />
       <div className='container about-container'>
         <p className='about-text'> 
           At The Babypink Republic, every piece is crafted with care, passion, and purpose.
@@ -18,6 +20,7 @@ const About = () => {
           Welcome to a world where softness meets style.            Welcome to The Babypink Republic.
         </p>
       </div>
+      <img className='about-img2' src={img2} alt="" />
     </main>
   )
 }
